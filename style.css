@@ -161,8 +161,55 @@ header {
 .insta-img-container {
     max-width: 1140px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 30px;
     align-items: center;
     margin: 40px auto;
+    margin-bottom: 100px;
+}
+
+/* Latest Deal Section */
+.latestdeal-container {
+    max-width: 1180px;
+    background-image: url("./Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 140px 90px 140px;
+    margin: 20px auto;
+}
+
+.deal-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    font-size: 18px;
+    margin: 5px auto;
+    display: block;
+}
+.form-input {
+    width: 700px;
+    height: 54px;
+    border-radius: 8px;
+    background: #fff;
+    border: none;
+    margin-right: 20px;
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 120px;
+    padding-top: 3px;
+}
+input::placeholder {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 16px;
+    padding-left: 15px;
+}
+.deals-btn {
+    padding: 16px 45px;
 }
