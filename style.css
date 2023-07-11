@@ -22,6 +22,8 @@ header {
     border: none;
     border-radius: 8px;
 }
+
+/* Banner Section */
 .banner-container {
     display: flex;
     justify-content: space-between;
@@ -102,15 +104,50 @@ header {
 .featured-img-container {
     max-width: 1140px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 30px;
     align-items: center;
     margin: 40px auto;
 }
 
+/* Service Section */
+
+.service-container {
+    max-width: 1140px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+    padding: 60px 110px;
+}
+.service-item {
+    margin: 0 60px;
+}
+#service-img-one {
+    margin-left: 85px;
+}
+#service-img-two {
+    margin-left: 70px;
+}
+#service-img-three {
+    margin-left: 25px;
+}
+.service-img {
+    margin-bottom: 20px;
+}
+.service-info {
+    color: rgba(39, 39, 39, 0.8);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 /* Hot Deal Section */
 
 .deals-container {
+    margin-top: 100px;
     background: rgba(229, 84, 115, 0.05);
 }
 .deal-heading {
@@ -170,6 +207,7 @@ header {
 }
 
 /* Latest Deal Section */
+
 .latestdeal-container {
     max-width: 1180px;
     background-image: url("./Flower Asset/Rectangle 9.png");
