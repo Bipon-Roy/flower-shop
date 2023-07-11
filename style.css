@@ -53,6 +53,7 @@ header {
 }
 
 /* featured flower section */
+
 .featured-container {
     margin-top: 100px;
 }
@@ -98,10 +99,41 @@ header {
     border-radius: 250px 250px 0px 0px;
 }
 .featured-img-container {
-    max-width: 1200px;
+    max-width: 1140px;
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
     align-items: center;
     margin: 40px auto;
+}
+
+/* Hot Deal Section */
+
+.deals-container {
+    background: rgba(229, 84, 115, 0.05);
+}
+.deal-heading {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.deal-content {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 60px 30px;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    display: flex;
+    width: 584px;
+    font-size: 17px;
+    margin: 25px 0;
+}
+.deal-btn {
+    display: flex;
+    margin: 10px auto;
 }
